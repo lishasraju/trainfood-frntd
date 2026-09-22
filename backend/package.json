@@ -1,0 +1,26 @@
+{
+  "name": "railbite-backend",
+  "version": "1.0.0",
+  "description": "RailBite - Train Food Delivery System Backend REST API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "train",
+    "food-delivery",
+    "railway",
+    "irctc",
+    "api"
+  ],
+  "author": "RailBite Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^9.9.4"
+  }
+}
