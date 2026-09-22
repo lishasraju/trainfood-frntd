@@ -1,0 +1,1234 @@
+{
+  "trains": [
+    {
+      "train_no": "12951",
+      "name": "Mumbai Central - New Delhi Rajdhani Express",
+      "train_type": "Superfast Rajdhani Express",
+      "source_station_code": "MMCT",
+      "source_station_name": "Mumbai Central",
+      "dest_station_code": "NDLS",
+      "dest_station_name": "New Delhi",
+      "departure_time": "17:00",
+      "arrival_time": "08:32",
+      "duration": "15h 32m",
+      "speed_kmh": 98,
+      "coaches_available": [
+        "1A",
+        "2A",
+        "3A",
+        "3E"
+      ],
+      "running_days": [
+        "Daily"
+      ]
+    },
+    {
+      "train_no": "22436",
+      "name": "New Delhi - Varanasi Vande Bharat Express",
+      "train_type": "Semi-High Speed Vande Bharat",
+      "source_station_code": "NDLS",
+      "source_station_name": "New Delhi",
+      "dest_station_code": "BSB",
+      "dest_station_name": "Varanasi Jn",
+      "departure_time": "06:00",
+      "arrival_time": "14:00",
+      "duration": "8h 00m",
+      "speed_kmh": 115,
+      "coaches_available": [
+        "EC",
+        "CC"
+      ],
+      "running_days": [
+        "Tue",
+        "Wed",
+        "Fri",
+        "Sat",
+        "Sun"
+      ]
+    },
+    {
+      "train_no": "12002",
+      "name": "New Delhi - Bhopal Habibganj Shatabdi Express",
+      "train_type": "Superfast Shatabdi Express",
+      "source_station_code": "NDLS",
+      "source_station_name": "New Delhi",
+      "dest_station_code": "RKMP",
+      "dest_station_name": "Rani Kamalapati (Bhopal)",
+      "departure_time": "06:00",
+      "arrival_time": "14:40",
+      "duration": "8h 40m",
+      "speed_kmh": 110,
+      "coaches_available": [
+        "EC",
+        "CC"
+      ],
+      "running_days": [
+        "Daily"
+      ]
+    },
+    {
+      "train_no": "12628",
+      "name": "New Delhi - Bengaluru Karnataka Express",
+      "train_type": "Superfast Express",
+      "source_station_code": "NDLS",
+      "source_station_name": "New Delhi",
+      "dest_station_code": "SBC",
+      "dest_station_name": "KSR Bengaluru",
+      "departure_time": "20:20",
+      "arrival_time": "12:00",
+      "duration": "39h 40m",
+      "speed_kmh": 85,
+      "coaches_available": [
+        "1A",
+        "2A",
+        "3A",
+        "SL"
+      ],
+      "running_days": [
+        "Daily"
+      ]
+    },
+    {
+      "train_no": "12810",
+      "name": "Howrah - Mumbai CSMT Mail Express",
+      "train_type": "Mail Superfast",
+      "source_station_code": "HWH",
+      "source_station_name": "Howrah Jn",
+      "dest_station_code": "CSMT",
+      "dest_station_name": "Mumbai CSMT",
+      "departure_time": "20:05",
+      "arrival_time": "04:25",
+      "duration": "32h 20m",
+      "speed_kmh": 88,
+      "coaches_available": [
+        "2A",
+        "3A",
+        "SL"
+      ],
+      "running_days": [
+        "Daily"
+      ]
+    },
+    {
+      "train_no": "20608",
+      "name": "Mysuru - MGR Chennai Central Vande Bharat Express",
+      "train_type": "Semi-High Speed Vande Bharat",
+      "source_station_code": "MYS",
+      "source_station_name": "Mysuru Jn",
+      "dest_station_code": "MAS",
+      "dest_station_name": "MGR Chennai Central",
+      "departure_time": "13:05",
+      "arrival_time": "19:30",
+      "duration": "6h 25m",
+      "speed_kmh": 105,
+      "coaches_available": [
+        "EC",
+        "CC"
+      ],
+      "running_days": [
+        "Mon",
+        "Tue",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "code": "MMCT",
+      "name": "Mumbai Central",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "total_platforms": 7,
+      "rating": 4.8
+    },
+    {
+      "code": "ST",
+      "name": "Surat",
+      "city": "Surat",
+      "state": "Gujarat",
+      "total_platforms": 4,
+      "rating": 4.7
+    },
+    {
+      "code": "BRC",
+      "name": "Vadodara Junction",
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "total_platforms": 7,
+      "rating": 4.9
+    },
+    {
+      "code": "RTM",
+      "name": "Ratlam Junction",
+      "city": "Ratlam",
+      "state": "Madhya Pradesh",
+      "total_platforms": 7,
+      "rating": 4.6
+    },
+    {
+      "code": "KOTA",
+      "name": "Kota Junction",
+      "city": "Kota",
+      "state": "Rajasthan",
+      "total_platforms": 5,
+      "rating": 4.8
+    },
+    {
+      "code": "NDLS",
+      "name": "New Delhi",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "total_platforms": 16,
+      "rating": 4.9
+    },
+    {
+      "code": "CNB",
+      "name": "Kanpur Central",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "total_platforms": 10,
+      "rating": 4.6
+    },
+    {
+      "code": "PRYJ",
+      "name": "Prayagraj Junction",
+      "city": "Prayagraj",
+      "state": "Uttar Pradesh",
+      "total_platforms": 10,
+      "rating": 4.7
+    },
+    {
+      "code": "BSB",
+      "name": "Varanasi Junction",
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "total_platforms": 9,
+      "rating": 4.8
+    },
+    {
+      "code": "AGC",
+      "name": "Agra Cantt",
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "total_platforms": 6,
+      "rating": 4.7
+    },
+    {
+      "code": "GWL",
+      "name": "Gwalior Junction",
+      "city": "Gwalior",
+      "state": "Madhya Pradesh",
+      "total_platforms": 5,
+      "rating": 4.6
+    },
+    {
+      "code": "VGLJ",
+      "name": "V Lakshmibai Jhansi",
+      "city": "Jhansi",
+      "state": "Uttar Pradesh",
+      "total_platforms": 8,
+      "rating": 4.5
+    },
+    {
+      "code": "BPL",
+      "name": "Bhopal Junction",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "total_platforms": 6,
+      "rating": 4.8
+    },
+    {
+      "code": "RKMP",
+      "name": "Rani Kamalapati",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "total_platforms": 5,
+      "rating": 4.9
+    },
+    {
+      "code": "SBC",
+      "name": "KSR Bengaluru",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "total_platforms": 10,
+      "rating": 4.9
+    },
+    {
+      "code": "MAS",
+      "name": "MGR Chennai Central",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "total_platforms": 12,
+      "rating": 4.8
+    },
+    {
+      "code": "KPD",
+      "name": "Katpadi Junction",
+      "city": "Vellore",
+      "state": "Tamil Nadu",
+      "total_platforms": 5,
+      "rating": 4.5
+    },
+    {
+      "code": "MYS",
+      "name": "Mysuru Junction",
+      "city": "Mysuru",
+      "state": "Karnataka",
+      "total_platforms": 6,
+      "rating": 4.8
+    }
+  ],
+  "train_schedules": [
+    {
+      "id": "12951-MMCT",
+      "train_no": "12951",
+      "station_code": "MMCT",
+      "station_name": "Mumbai Central",
+      "sequence": 1,
+      "arrival_time": "17:00",
+      "departure_time": "17:00",
+      "halt_minutes": 0,
+      "distance_km": 0,
+      "day": 1,
+      "platform_no": 1,
+      "order_cutoff_minutes": 30
+    },
+    {
+      "id": "12951-ST",
+      "train_no": "12951",
+      "station_code": "ST",
+      "station_name": "Surat",
+      "sequence": 2,
+      "arrival_time": "19:43",
+      "departure_time": "19:48",
+      "halt_minutes": 5,
+      "distance_km": 263,
+      "day": 1,
+      "platform_no": 1,
+      "order_cutoff_minutes": 35
+    },
+    {
+      "id": "12951-BRC",
+      "train_no": "12951",
+      "station_code": "BRC",
+      "station_name": "Vadodara Junction",
+      "sequence": 3,
+      "arrival_time": "21:06",
+      "departure_time": "21:16",
+      "halt_minutes": 10,
+      "distance_km": 393,
+      "day": 1,
+      "platform_no": 2,
+      "order_cutoff_minutes": 45
+    },
+    {
+      "id": "12951-RTM",
+      "train_no": "12951",
+      "station_code": "RTM",
+      "station_name": "Ratlam Junction",
+      "sequence": 4,
+      "arrival_time": "00:25",
+      "departure_time": "00:28",
+      "halt_minutes": 3,
+      "distance_km": 653,
+      "day": 2,
+      "platform_no": 3,
+      "order_cutoff_minutes": 45
+    },
+    {
+      "id": "12951-KOTA",
+      "train_no": "12951",
+      "station_code": "KOTA",
+      "station_name": "Kota Junction",
+      "sequence": 5,
+      "arrival_time": "03:15",
+      "departure_time": "03:20",
+      "halt_minutes": 5,
+      "distance_km": 920,
+      "day": 2,
+      "platform_no": 1,
+      "order_cutoff_minutes": 40
+    },
+    {
+      "id": "12951-NDLS",
+      "train_no": "12951",
+      "station_code": "NDLS",
+      "station_name": "New Delhi",
+      "sequence": 6,
+      "arrival_time": "08:32",
+      "departure_time": "08:32",
+      "halt_minutes": 0,
+      "distance_km": 1386,
+      "day": 2,
+      "platform_no": 3,
+      "order_cutoff_minutes": 30
+    },
+    {
+      "id": "22436-NDLS",
+      "train_no": "22436",
+      "station_code": "NDLS",
+      "station_name": "New Delhi",
+      "sequence": 1,
+      "arrival_time": "06:00",
+      "departure_time": "06:00",
+      "halt_minutes": 0,
+      "distance_km": 0,
+      "day": 1,
+      "platform_no": 16,
+      "order_cutoff_minutes": 30
+    },
+    {
+      "id": "22436-CNB",
+      "train_no": "22436",
+      "station_code": "CNB",
+      "station_name": "Kanpur Central",
+      "sequence": 2,
+      "arrival_time": "10:08",
+      "departure_time": "10:10",
+      "halt_minutes": 2,
+      "distance_km": 440,
+      "day": 1,
+      "platform_no": 5,
+      "order_cutoff_minutes": 35
+    },
+    {
+      "id": "22436-PRYJ",
+      "train_no": "22436",
+      "station_code": "PRYJ",
+      "station_name": "Prayagraj Junction",
+      "sequence": 3,
+      "arrival_time": "12:08",
+      "departure_time": "12:10",
+      "halt_minutes": 2,
+      "distance_km": 634,
+      "day": 1,
+      "platform_no": 6,
+      "order_cutoff_minutes": 35
+    },
+    {
+      "id": "22436-BSB",
+      "train_no": "22436",
+      "station_code": "BSB",
+      "station_name": "Varanasi Junction",
+      "sequence": 4,
+      "arrival_time": "14:00",
+      "departure_time": "14:00",
+      "halt_minutes": 0,
+      "distance_km": 759,
+      "day": 1,
+      "platform_no": 1,
+      "order_cutoff_minutes": 30
+    },
+    {
+      "id": "12002-NDLS",
+      "train_no": "12002",
+      "station_code": "NDLS",
+      "station_name": "New Delhi",
+      "sequence": 1,
+      "arrival_time": "06:00",
+      "departure_time": "06:00",
+      "halt_minutes": 0,
+      "distance_km": 0,
+      "day": 1,
+      "platform_no": 1,
+      "order_cutoff_minutes": 30
+    },
+    {
+      "id": "12002-AGC",
+      "train_no": "12002",
+      "station_code": "AGC",
+      "station_name": "Agra Cantt",
+      "sequence": 2,
+      "arrival_time": "07:50",
+      "departure_time": "07:55",
+      "halt_minutes": 5,
+      "distance_km": 195,
+      "day": 1,
+      "platform_no": 1,
+      "order_cutoff_minutes": 35
+    },
+    {
+      "id": "12002-GWL",
+      "train_no": "12002",
+      "station_code": "GWL",
+      "station_name": "Gwalior Junction",
+      "sequence": 3,
+      "arrival_time": "09:23",
+      "departure_time": "09:28",
+      "halt_minutes": 5,
+      "distance_km": 313,
+      "day": 1,
+      "platform_no": 2,
+      "order_cutoff_minutes": 40
+    },
+    {
+      "id": "12002-VGLJ",
+      "train_no": "12002",
+      "station_code": "VGLJ",
+      "station_name": "V Lakshmibai Jhansi",
+      "sequence": 4,
+      "arrival_time": "10:45",
+      "departure_time": "10:50",
+      "halt_minutes": 5,
+      "distance_km": 410,
+      "day": 1,
+      "platform_no": 1,
+      "order_cutoff_minutes": 40
+    },
+    {
+      "id": "12002-BPL",
+      "train_no": "12002",
+      "station_code": "BPL",
+      "station_name": "Bhopal Junction",
+      "sequence": 5,
+      "arrival_time": "14:12",
+      "departure_time": "14:15",
+      "halt_minutes": 3,
+      "distance_km": 701,
+      "day": 1,
+      "platform_no": 1,
+      "order_cutoff_minutes": 40
+    },
+    {
+      "id": "12002-RKMP",
+      "train_no": "12002",
+      "station_code": "RKMP",
+      "station_name": "Rani Kamalapati",
+      "sequence": 6,
+      "arrival_time": "14:40",
+      "departure_time": "14:40",
+      "halt_minutes": 0,
+      "distance_km": 707,
+      "day": 1,
+      "platform_no": 2,
+      "order_cutoff_minutes": 30
+    },
+    {
+      "id": "20608-MYS",
+      "train_no": "20608",
+      "station_code": "MYS",
+      "station_name": "Mysuru Junction",
+      "sequence": 1,
+      "arrival_time": "13:05",
+      "departure_time": "13:05",
+      "halt_minutes": 0,
+      "distance_km": 0,
+      "day": 1,
+      "platform_no": 1,
+      "order_cutoff_minutes": 30
+    },
+    {
+      "id": "20608-SBC",
+      "train_no": "20608",
+      "station_code": "SBC",
+      "station_name": "KSR Bengaluru",
+      "sequence": 2,
+      "arrival_time": "14:50",
+      "departure_time": "14:55",
+      "halt_minutes": 5,
+      "distance_km": 138,
+      "day": 1,
+      "platform_no": 7,
+      "order_cutoff_minutes": 40
+    },
+    {
+      "id": "20608-KPD",
+      "train_no": "20608",
+      "station_code": "KPD",
+      "station_name": "Katpadi Junction",
+      "sequence": 3,
+      "arrival_time": "17:33",
+      "departure_time": "17:35",
+      "halt_minutes": 2,
+      "distance_km": 367,
+      "day": 1,
+      "platform_no": 2,
+      "order_cutoff_minutes": 35
+    },
+    {
+      "id": "20608-MAS",
+      "train_no": "20608",
+      "station_code": "MAS",
+      "station_name": "MGR Chennai Central",
+      "sequence": 4,
+      "arrival_time": "19:30",
+      "departure_time": "19:30",
+      "halt_minutes": 0,
+      "distance_km": 497,
+      "day": 1,
+      "platform_no": 2,
+      "order_cutoff_minutes": 30
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "rest-st-01",
+      "station_code": "ST",
+      "name": "Haldiram's Sweets & Restaurant",
+      "tagline": "Pure Ghee Delights, Authentic North & Western Indian",
+      "rating": 4.8,
+      "reviews_count": 1420,
+      "delivery_time_mins": 20,
+      "min_order": 149,
+      "cuisine": "North Indian, Thalis, Sweets, Chaat",
+      "hygiene_score": "99% (A+ Grade)",
+      "irctc_authorized": true,
+      "is_pure_veg": true,
+      "jain_available": true,
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80",
+      "logo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=120&q=80"
+    },
+    {
+      "id": "rest-st-02",
+      "station_code": "ST",
+      "name": "Surti Farsan & Locho Hub",
+      "tagline": "Surat's World Famous Authentic Snacks & Meals",
+      "rating": 4.7,
+      "reviews_count": 890,
+      "delivery_time_mins": 15,
+      "min_order": 99,
+      "cuisine": "Gujarati Specials, Farsan, Breakfast",
+      "hygiene_score": "97% (A Grade)",
+      "irctc_authorized": true,
+      "is_pure_veg": true,
+      "jain_available": true,
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
+      "logo": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=120&q=80"
+    },
+    {
+      "id": "rest-brc-01",
+      "station_code": "BRC",
+      "name": "Maharaja Grand Royal Kitchen",
+      "tagline": "Hot & Fresh Railway Special Thalis & Biryani",
+      "rating": 4.9,
+      "reviews_count": 2150,
+      "delivery_time_mins": 25,
+      "min_order": 199,
+      "cuisine": "Royal Thalis, Punjabi, Biryani, Mughlai",
+      "hygiene_score": "100% (Certified)",
+      "irctc_authorized": true,
+      "is_pure_veg": false,
+      "jain_available": true,
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80",
+      "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=120&q=80"
+    },
+    {
+      "id": "rest-brc-02",
+      "station_code": "BRC",
+      "name": "Domino's Hot Pizza Express",
+      "tagline": "Piping Hot Pizzas Delivered to your Train Seat",
+      "rating": 4.8,
+      "reviews_count": 3400,
+      "delivery_time_mins": 20,
+      "min_order": 199,
+      "cuisine": "Pizza, Garlic Breads, Pastas, Desserts",
+      "hygiene_score": "99% (A+ Grade)",
+      "irctc_authorized": true,
+      "is_pure_veg": false,
+      "jain_available": false,
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+      "logo": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=120&q=80"
+    },
+    {
+      "id": "rest-brc-03",
+      "station_code": "BRC",
+      "name": "Shree Jain Rasoi (100% Pure Satvik)",
+      "tagline": "Pure No Onion, No Garlic, Made with Devotion",
+      "rating": 4.9,
+      "reviews_count": 1820,
+      "delivery_time_mins": 20,
+      "min_order": 120,
+      "cuisine": "Pure Jain Thalis, Satvik Khichdi, Sweets",
+      "hygiene_score": "100% (Certified)",
+      "irctc_authorized": true,
+      "is_pure_veg": true,
+      "jain_available": true,
+      "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?auto=format&fit=crop&w=800&q=80",
+      "logo": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=120&q=80"
+    },
+    {
+      "id": "rest-rtm-01",
+      "station_code": "RTM",
+      "name": "Ratlami Tadka & Sev Special",
+      "tagline": "Famous Spicy Ratlami Sev, Poha & Maharaja Thali",
+      "rating": 4.7,
+      "reviews_count": 980,
+      "delivery_time_mins": 15,
+      "min_order": 99,
+      "cuisine": "Malwi Specials, Poha, Thalis, Namkeen",
+      "hygiene_score": "98% (A+ Grade)",
+      "irctc_authorized": true,
+      "is_pure_veg": true,
+      "jain_available": true,
+      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80",
+      "logo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=120&q=80"
+    },
+    {
+      "id": "rest-kota-01",
+      "station_code": "KOTA",
+      "name": "Bikanervala Express Kota",
+      "tagline": "Authentic Rajasthani Dal Baati Churma & Royal Meals",
+      "rating": 4.8,
+      "reviews_count": 1650,
+      "delivery_time_mins": 20,
+      "min_order": 149,
+      "cuisine": "Rajasthani, North Indian, Chaat, Sweets",
+      "hygiene_score": "99% (A+ Grade)",
+      "irctc_authorized": true,
+      "is_pure_veg": true,
+      "jain_available": true,
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80",
+      "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=120&q=80"
+    },
+    {
+      "id": "rest-ndls-01",
+      "station_code": "NDLS",
+      "name": "Sagar Ratna South & North Express",
+      "tagline": "Piping Hot Filter Coffee, Dosas & Premium Thalis",
+      "rating": 4.9,
+      "reviews_count": 4200,
+      "delivery_time_mins": 20,
+      "min_order": 149,
+      "cuisine": "South Indian, North Indian, Thalis",
+      "hygiene_score": "100% (A+ Grade)",
+      "irctc_authorized": true,
+      "is_pure_veg": true,
+      "jain_available": true,
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80",
+      "logo": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=120&q=80"
+    },
+    {
+      "id": "rest-ndls-02",
+      "station_code": "NDLS",
+      "name": "Behrouz Royal Biryani",
+      "tagline": "The Royal Biryani Experience Sealed in Hot Clay Pots",
+      "rating": 4.9,
+      "reviews_count": 3100,
+      "delivery_time_mins": 25,
+      "min_order": 249,
+      "cuisine": "Royal Biryani, Kebabs, Mughlai, Desserts",
+      "hygiene_score": "100% (A+ Grade)",
+      "irctc_authorized": true,
+      "is_pure_veg": false,
+      "jain_available": false,
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80",
+      "logo": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=120&q=80"
+    },
+    {
+      "id": "rest-agc-01",
+      "station_code": "AGC",
+      "name": "Panchi Petha & Agra Mughlai Rasoi",
+      "tagline": "World Renowned Agra Petha, Bedmi Puri & Mughlai Meals",
+      "rating": 4.8,
+      "reviews_count": 1940,
+      "delivery_time_mins": 20,
+      "min_order": 120,
+      "cuisine": "Agra Delicacies, North Indian, Sweets",
+      "hygiene_score": "98% (A+ Grade)",
+      "irctc_authorized": true,
+      "is_pure_veg": true,
+      "jain_available": true,
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
+      "logo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=120&q=80"
+    },
+    {
+      "id": "rest-sbc-01",
+      "station_code": "SBC",
+      "name": "Udupi Sri Krishna Bhavan",
+      "tagline": "Traditional Karnataka Meals, Ghee Dosas & Filter Kaapi",
+      "rating": 4.9,
+      "reviews_count": 2800,
+      "delivery_time_mins": 15,
+      "min_order": 99,
+      "cuisine": "Karnataka Meals, Udupi Delicacies, Filter Coffee",
+      "hygiene_score": "100% (A+ Grade)",
+      "irctc_authorized": true,
+      "is_pure_veg": true,
+      "jain_available": true,
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80",
+      "logo": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=120&q=80"
+    }
+  ],
+  "menu_items": [
+    {
+      "id": "item-01",
+      "restaurant_id": "rest-brc-01",
+      "name": "Executive Maharaja Veg Thali",
+      "category": "Thalis & Combos",
+      "price": 249,
+      "original_price": 299,
+      "description": "Paneer Butter Masala, Dal Makhani, Mix Veg, 4 Butter Phulkas, Jeera Rice, Gulab Jamun, Roasted Papad & Pickle. Packed in 5-compartment spill-proof thermal box.",
+      "is_veg": true,
+      "is_jain": false,
+      "is_bestseller": true,
+      "spice_level": 2,
+      "prep_time_mins": 15,
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80",
+      "serves": "1 Person",
+      "customizations": {
+        "bread": [
+          "4 Butter Phulkas",
+          "2 Butter Naan (+₹20)",
+          "3 Parathas (+₹15)"
+        ],
+        "dessert": [
+          "1 pc Gulab Jamun (Included)",
+          "2 pc Rasgulla (+₹25)"
+        ]
+      }
+    },
+    {
+      "id": "item-02",
+      "restaurant_id": "rest-brc-01",
+      "name": "Dum Chicken Handi Biryani with Raita",
+      "category": "Biryani",
+      "price": 289,
+      "original_price": 349,
+      "description": "Slow-cooked fragrant long grain Basmati rice infused with tender chicken pieces, saffron, whole spices. Served with Boondi Raita & Salan.",
+      "is_veg": false,
+      "is_jain": false,
+      "is_bestseller": true,
+      "spice_level": 3,
+      "prep_time_mins": 15,
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80",
+      "serves": "1-2 Persons",
+      "customizations": {
+        "spice": [
+          "Medium Spicy",
+          "Extra Spicy (+₹0)"
+        ],
+        "extra": [
+          "Boondi Raita (Included)",
+          "Extra Salan Gravy (+₹30)"
+        ]
+      }
+    },
+    {
+      "id": "item-03",
+      "restaurant_id": "rest-brc-03",
+      "name": "100% Pure Jain Royal Thali",
+      "category": "Jain Satvik Meals",
+      "price": 229,
+      "original_price": 269,
+      "description": "Strict No-Onion No-Garlic certified pure meal. Shahi Paneer (Jain style), Moong Dal Tadka, Gatte Ki Sabzi, 4 Tawa Rotis with Ghee, Jeera Rice & Sweet Boondi.",
+      "is_veg": true,
+      "is_jain": true,
+      "is_bestseller": true,
+      "spice_level": 1,
+      "prep_time_mins": 12,
+      "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?auto=format&fit=crop&w=600&q=80",
+      "serves": "1 Person",
+      "customizations": {
+        "bread": [
+          "4 Desi Ghee Tawa Rotis",
+          "3 Ghee Parathas (+₹15)"
+        ],
+        "portion": [
+          "Standard Meal",
+          "Large Meal (+₹40)"
+        ]
+      }
+    },
+    {
+      "id": "item-04",
+      "restaurant_id": "rest-st-01",
+      "name": "Haldiram's Deluxe North Indian Thali",
+      "category": "Thalis & Combos",
+      "price": 219,
+      "original_price": 250,
+      "description": "Kadhai Paneer, Yellow Dal Tadka, Seasonal Sabzi, 4 Phulkas, Steamed Rice, Gulab Jamun, Curd & Salad.",
+      "is_veg": true,
+      "is_jain": false,
+      "is_bestseller": true,
+      "spice_level": 2,
+      "prep_time_mins": 15,
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "serves": "1 Person",
+      "customizations": {
+        "bread": [
+          "4 Phulkas",
+          "2 Laccha Paratha (+₹25)"
+        ]
+      }
+    },
+    {
+      "id": "item-05",
+      "restaurant_id": "rest-st-02",
+      "name": "Authentic Surti Butter Locho with Chutney",
+      "category": "Regional Specials",
+      "price": 99,
+      "original_price": 120,
+      "description": "Surat's signature delicacy! Steamed savory chickpea cake seasoned with special locho masala, dollop of Amul butter, sev, chopped coriander & tangy chutney.",
+      "is_veg": true,
+      "is_jain": true,
+      "is_bestseller": true,
+      "spice_level": 2,
+      "prep_time_mins": 10,
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80",
+      "serves": "1 Person",
+      "customizations": {
+        "topping": [
+          "Amul Butter & Sev (Default)",
+          "Cheese Locho (+₹30)",
+          "Schezwan Locho (+₹20)"
+        ]
+      }
+    },
+    {
+      "id": "item-06",
+      "restaurant_id": "rest-brc-02",
+      "name": "Domino's Medium Peppy Paneer Pizza Combo",
+      "category": "Pizza & Fast Food",
+      "price": 369,
+      "original_price": 420,
+      "description": "Medium Peppy Paneer Pizza (Chunky paneer, crisp capsicum & spicy red paprika) + Stuffed Garlic Bread + 500ml Cold Drink.",
+      "is_veg": true,
+      "is_jain": false,
+      "is_bestseller": true,
+      "spice_level": 2,
+      "prep_time_mins": 20,
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+      "serves": "2 Persons",
+      "customizations": {
+        "crust": [
+          "Classic Hand Tossed",
+          "Cheese Burst (+₹65)"
+        ],
+        "drink": [
+          "Coke 500ml",
+          "Sprite 500ml",
+          "Thums Up 500ml"
+        ]
+      }
+    },
+    {
+      "id": "item-07",
+      "restaurant_id": "rest-rtm-01",
+      "name": "Ratlami Poha Jalebi Combo + Masala Chai",
+      "category": "Breakfast & Snacks",
+      "price": 119,
+      "original_price": 140,
+      "description": "Fluffy steamed Indori poha topped with authentic spicy Ratlami sev, pomegranate, accompanied by 2 hot crispy Jalebis and 1 cutting Masala Chai.",
+      "is_veg": true,
+      "is_jain": false,
+      "is_bestseller": true,
+      "spice_level": 2,
+      "prep_time_mins": 10,
+      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=600&q=80",
+      "serves": "1 Person",
+      "customizations": {
+        "sweet": [
+          "2 pc Crispy Jalebi",
+          "1 pc Gulab Jamun (+₹10)"
+        ]
+      }
+    },
+    {
+      "id": "item-08",
+      "restaurant_id": "rest-kota-01",
+      "name": "Bikanervala Special Dal Baati Churma Thali",
+      "category": "Regional Specials",
+      "price": 239,
+      "original_price": 279,
+      "description": "Traditional Rajasthani feast: 3 baked Baatis dipped in Desi Ghee, Panchmel spicy Dal, sweet almond Churma, Gatte Ki Sabzi, Garlic Chutney & Chaas.",
+      "is_veg": true,
+      "is_jain": false,
+      "is_bestseller": true,
+      "spice_level": 3,
+      "prep_time_mins": 15,
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "serves": "1 Person",
+      "customizations": {
+        "baati": [
+          "Desi Ghee Baatis (3 pcs)",
+          "Extra Baati (1 pc) (+₹35)"
+        ]
+      }
+    },
+    {
+      "id": "item-09",
+      "restaurant_id": "rest-ndls-01",
+      "name": "Sagar Ratna Masala Dosa + Filter Coffee Combo",
+      "category": "South Indian Delicacies",
+      "price": 179,
+      "original_price": 210,
+      "description": "Crispy golden butter masala dosa filled with spiced potato masala, served with 3 signature chutneys (Coconut, Tomato, Mint), hot piping Sambar and South Indian Filter Coffee.",
+      "is_veg": true,
+      "is_jain": true,
+      "is_bestseller": true,
+      "spice_level": 1,
+      "prep_time_mins": 15,
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "serves": "1 Person",
+      "customizations": {
+        "dosa_type": [
+          "Butter Masala Dosa",
+          "Mysore Masala Dosa (+₹25)",
+          "Paneer Dosa (+₹35)"
+        ],
+        "jain_option": [
+          "Standard Potato Masala",
+          "Jain Raw Banana Masala (+₹0)"
+        ]
+      }
+    },
+    {
+      "id": "item-10",
+      "restaurant_id": "rest-ndls-02",
+      "name": "Behrouz Zaikedaar Paneer Dum Biryani",
+      "category": "Biryani",
+      "price": 295,
+      "original_price": 350,
+      "description": "Royal dish of soft spiced paneer cubes layered with aromatic saffron basmati rice, caramelized onions, fried cashews and cardamom. Served with Mint Raita & Gulab Jamun.",
+      "is_veg": true,
+      "is_jain": false,
+      "is_bestseller": true,
+      "spice_level": 2,
+      "prep_time_mins": 20,
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80",
+      "serves": "1-2 Persons",
+      "customizations": {
+        "raita": [
+          "Mint Raita (Included)",
+          "Burani Garlic Raita (+₹25)"
+        ]
+      }
+    },
+    {
+      "id": "item-11",
+      "restaurant_id": "rest-agc-01",
+      "name": "Agra Special Bedmi Puri & Aloo Sabzi + Angoori Petha",
+      "category": "Breakfast & Regional Specials",
+      "price": 149,
+      "original_price": 180,
+      "description": "4 crispy urad dal stuffed Bedmi puris served with spicy Hing Aloo gravy, methi chutney, sour pickle and 100g famous Agra Angoori Petha.",
+      "is_veg": true,
+      "is_jain": false,
+      "is_bestseller": true,
+      "spice_level": 3,
+      "prep_time_mins": 12,
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80",
+      "serves": "1 Person",
+      "customizations": {
+        "petha_flavor": [
+          "Angoori Petha (Included)",
+          "Kesar Petha (+₹20)",
+          "Pan Petha (+₹25)"
+        ]
+      }
+    },
+    {
+      "id": "item-12",
+      "restaurant_id": "rest-sbc-01",
+      "name": "Udupi Special Ghee Thatte Idli & Vada Combo",
+      "category": "South Indian Delicacies",
+      "price": 129,
+      "original_price": 150,
+      "description": "2 giant soft Bidadi Thatte Idlis doused in pure desi ghee and gunpowder podi, with 1 crispy Medu Vada, drumstick Sambar and coconut chutney.",
+      "is_veg": true,
+      "is_jain": true,
+      "is_bestseller": true,
+      "spice_level": 1,
+      "prep_time_mins": 10,
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "serves": "1 Person",
+      "customizations": {
+        "ghee_level": [
+          "Normal Ghee",
+          "Extra Ghee Podi (+₹15)"
+        ]
+      }
+    },
+    {
+      "id": "item-13",
+      "restaurant_id": "rest-brc-01",
+      "name": "Train Pantry Express Chai Flask (500ml)",
+      "category": "Beverages & Hot Flasks",
+      "price": 99,
+      "original_price": 120,
+      "description": "500ml insulated flask of freshly brewed Ginger Cardamom Masala Chai. Stays hot for 4 hours. Comes with 4 disposable paper cups & sugar sachets.",
+      "is_veg": true,
+      "is_jain": true,
+      "is_bestseller": true,
+      "spice_level": 1,
+      "prep_time_mins": 5,
+      "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80",
+      "serves": "3-4 Cups",
+      "customizations": {
+        "sugar": [
+          "Standard Sweetness",
+          "Less Sugar",
+          "Without Sugar (Sugar Sachets Separate)"
+        ]
+      }
+    },
+    {
+      "id": "item-14",
+      "restaurant_id": "rest-st-01",
+      "name": "RailNeer Packaged Drinking Water (1 Litre x 2)",
+      "category": "Beverages & Hot Flasks",
+      "price": 30,
+      "original_price": 30,
+      "description": "Pack of 2 chilled IRCTC RailNeer 1-Litre mineral water bottles, sealed with tamper-proof cap.",
+      "is_veg": true,
+      "is_jain": true,
+      "is_bestseller": false,
+      "spice_level": 0,
+      "prep_time_mins": 2,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=600&q=80",
+      "serves": "2 Litres",
+      "customizations": {}
+    }
+  ],
+  "pnr_records": [
+    {
+      "pnr": "2485961034",
+      "train_no": "12951",
+      "train_name": "Mumbai Central - New Delhi Rajdhani Express",
+      "journey_date": "2026-08-25",
+      "passenger_name": "Rahul Sharma",
+      "passenger_phone": "+91 98765 12345",
+      "coach": "B3",
+      "berth": 42,
+      "berth_type": "Lower Berth (LB)",
+      "boarding_station_code": "MMCT",
+      "boarding_station_name": "Mumbai Central",
+      "destination_station_code": "NDLS",
+      "destination_station_name": "New Delhi",
+      "pnr_status": "CNF (Confirmed - Berth 42, Coach B3)"
+    },
+    {
+      "pnr": "8492017362",
+      "train_no": "22436",
+      "train_name": "New Delhi - Varanasi Vande Bharat Express",
+      "journey_date": "2026-08-25",
+      "passenger_name": "Priya Patel",
+      "passenger_phone": "+91 98112 34567",
+      "coach": "C3",
+      "berth": 19,
+      "berth_type": "Window Seat (W)",
+      "boarding_station_code": "NDLS",
+      "boarding_station_name": "New Delhi",
+      "destination_station_code": "BSB",
+      "destination_station_name": "Varanasi Jn",
+      "pnr_status": "CNF (Confirmed - Seat 19, Coach C3)"
+    },
+    {
+      "pnr": "4510293847",
+      "train_no": "12002",
+      "train_name": "New Delhi - Bhopal Habibganj Shatabdi Express",
+      "journey_date": "2026-08-26",
+      "passenger_name": "Vikram Adithya",
+      "passenger_phone": "+91 97412 88990",
+      "coach": "E1",
+      "berth": 12,
+      "berth_type": "Aisle Seat (A)",
+      "boarding_station_code": "NDLS",
+      "boarding_station_name": "New Delhi",
+      "destination_station_code": "RKMP",
+      "destination_station_name": "Rani Kamalapati",
+      "pnr_status": "CNF (Confirmed - Seat 12, Coach E1)"
+    },
+    {
+      "pnr": "9102837465",
+      "train_no": "20608",
+      "train_name": "Mysuru - MGR Chennai Central Vande Bharat Express",
+      "journey_date": "2026-08-25",
+      "passenger_name": "Ananya Sundaram",
+      "passenger_phone": "+91 94441 55667",
+      "coach": "C5",
+      "berth": 34,
+      "berth_type": "Window Seat (W)",
+      "boarding_station_code": "MYS",
+      "boarding_station_name": "Mysuru Jn",
+      "destination_station_code": "MAS",
+      "destination_station_name": "MGR Chennai Central",
+      "pnr_status": "CNF (Confirmed - Seat 34, Coach C5)"
+    }
+  ],
+  "coupons": [
+    {
+      "code": "RAILBITE50",
+      "title": "50% OFF (Up to ₹100)",
+      "description": "Get 50% discount up to ₹100 on orders above ₹199",
+      "discount_percent": 50,
+      "flat_discount": 0,
+      "min_order_amount": 199,
+      "max_discount_amount": 100,
+      "is_active": true
+    },
+    {
+      "code": "FIRSTTRAIN",
+      "title": "Flat ₹75 OFF on First Order",
+      "description": "Flat ₹75 OFF on your journey feast for orders above ₹249",
+      "discount_percent": 0,
+      "flat_discount": 75,
+      "min_order_amount": 249,
+      "max_discount_amount": 75,
+      "is_active": true
+    },
+    {
+      "code": "FREECHAI",
+      "title": "Flat ₹50 OFF for Chai & Snacks",
+      "description": "Get ₹50 discount on any tea & snacks order above ₹149",
+      "discount_percent": 0,
+      "flat_discount": 50,
+      "min_order_amount": 149,
+      "max_discount_amount": 50,
+      "is_active": true
+    },
+    {
+      "code": "SUPERMEAL",
+      "title": "20% OFF on Deluxe Thalis",
+      "description": "Save 20% up to ₹150 on group or thali meals above ₹399",
+      "discount_percent": 20,
+      "flat_discount": 0,
+      "min_order_amount": 399,
+      "max_discount_amount": 150,
+      "is_active": true
+    }
+  ],
+  "orders": [],
+  "users": [
+    {
+      "id": "user-001",
+      "name": "Rahul Sharma",
+      "email": "rahul@railbite.in",
+      "phone": "+91 98765 43210",
+      "role": "user",
+      "salt": "0f86fb0402ff75792a2d75e45b33b251",
+      "password_hash": "bb3ef834aec719577ac96445fd6d854692ce2f350f45ae17323c1f826b94a8091abfffbdd4dffc2b2ad5955efbadc19f809bbe3c57d460e6c112142663520646",
+      "pnr": "2485961034",
+      "coach": "B3",
+      "berth": "42",
+      "berth_type": "LB",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-08-25T15:46:40.650Z"
+    },
+    {
+      "id": "admin-001",
+      "name": "Vikram Malhotra",
+      "email": "admin@railbite.in",
+      "phone": "+91 99887 76655",
+      "role": "admin",
+      "designation": "IRCTC Station Pantry Officer",
+      "station_code": "BRC",
+      "station_name": "Vadodara Junction",
+      "salt": "b4f747c6f906e3c84f049df35b328061",
+      "password_hash": "5d99aebb52b6aadfa7ec830c7008b06bb6752174bcfe35d025e1d98e5ff5882e8e9b36d8d4b28ac16ec90a82bf15db1b57f795e294065576cd4108f96b29e739",
+      "permissions": [
+        "manage_orders",
+        "manage_restaurants",
+        "manage_menu",
+        "view_analytics",
+        "dispatch_pantry",
+        "refund_control"
+      ],
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-08-25T15:46:40.653Z"
+    }
+  ]
+}
