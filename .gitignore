@@ -28,3 +28,13 @@ pnpm-debug.log*
 Thumbs.db
 .vscode/
 .idea/
+
+# Python & Machine Learning
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+ml/__pycache__/
+

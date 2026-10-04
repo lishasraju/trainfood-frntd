@@ -5,6 +5,7 @@ import { lookupPnr } from '../controllers/pnrController.js';
 import { getRestaurantsByStation, getRestaurantDetails } from '../controllers/restaurantController.js';
 import { createOrder, getOrderById, updateOrderStatus, getAllOrders } from '../controllers/orderController.js';
 import { getCoupons, validateCoupon, getStats } from '../controllers/couponController.js';
+import { predictTrainDelay, recommendDishes, predictDeliveryFeasibility } from '../controllers/mlController.js';
 import { optionalAuth } from '../middleware/authMiddleware.js';
 
 const router = express.Router();
@@ -34,5 +35,13 @@ router.patch('/orders/:orderId/status', updateOrderStatus);
 router.get('/coupons', getCoupons);
 router.post('/coupons/validate', validateCoupon);
 router.get('/stats', getStats);
+
+// Machine Learning Endpoints
+router.get('/ml/train-delay', predictTrainDelay);
+router.post('/ml/train-delay', predictTrainDelay);
+router.get('/ml/recommend', recommendDishes);
+router.post('/ml/recommend', recommendDishes);
+router.get('/ml/delivery-feasibility', predictDeliveryFeasibility);
+router.post('/ml/delivery-feasibility', predictDeliveryFeasibility);
 
 export default router;
